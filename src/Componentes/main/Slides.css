@@ -1,0 +1,30 @@
+.awssld {
+    --organic-arrow-thickness: 4px;
+    --slider-height-percentage: 500px;
+    --loader-bar-color: #c525a2;
+    --loader-bar-height: 6px;
+    --control-button-width: 10%;
+    --control-button-height: 25%;
+    --control-button-opacity: 0.5;
+    --control-button-hover-opacity: 0.75;
+    --control-button-background: transparent;
+    --transition-bezier: cubic-bezier(0.5, 0.075, 0.25, 0.95);
+    --slider-transition-duration: 575ms;
+    --organic-arrow-color: #ffffff;
+    --organic-arrow-border-radius: 30px;
+    --organic-arrow-height: 50px;
+    --control-bullet-color: #e9e9e9;
+    --control-bullet-active-color: #ff7bd7;
+    --content-background-color: #ff6cdf;
+}
+.awssld__content > img, .awssld__content > video {
+    object-fit: cover;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+ 
+.slidespers{
+    margin-bottom: 100px;
+}
